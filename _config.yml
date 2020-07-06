@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               Lucy Allen
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.github.io
+url:                 http://lucy-allen.github.io
 paginate:            2
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Lucy Allen
+  url:               https://twitter.com/lucy_allenn
+  email:             lallen@colgate.edu
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/lucy-allen
 
 # Gems
 gems:
