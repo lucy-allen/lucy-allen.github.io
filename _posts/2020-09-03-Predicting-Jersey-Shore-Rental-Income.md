@@ -3,7 +3,7 @@ layout: post
 title: Predicting Jersey Shore Rental Income
 ---
 
-![](https://github.com/lucy-allen/lucy-allen.github.io/blob/master/images/stone_harbor_front.jpgg)
+![](https://github.com/lucy-allen/lucy-allen.github.io/blob/master/images/stone_harbor_front.jpg)
 
 ### Motivation
 
