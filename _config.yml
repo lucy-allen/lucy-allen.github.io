@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Lucy Allen
 tagline:             A Look Into My Life In Data Science
-url:                 http://lucy-allen.github.io
+url:                 http://lucy-allen.github.io/poole/
 paginate:            2
 baseurl:             ""
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Blog Post
+title: First Blog Post
 ---
 
 Hi everyone! I am really excited to share my experiences learning Data Science with you all!  
