@@ -3,7 +3,7 @@ layout: post
 title: Predicting Jersey Shore Rental Income
 ---
 
-![Stone Harbor](images/stone_harbor_front.jpg)
+![Stone Harbor](/images/stone_harbor_front.jpg)
 
 ### Motivation
 
@@ -17,7 +17,7 @@ Stone Harbor is located in Cape May County New Jersey, so this is where I focuse
 
 Exploratory Data Analysis (EDA) is a very important part of any Data Science project.  This allows you to really understand your data before digging into the deeper more complex models.  Some problems can even be solved using just EDA alone, however as this project involved predicting prices, supervised machine learning was required for the project as well.  While doing some EDA and plotting the target and some of the features I had, I noticed that the targer variable, the thing that I want to predict (price), was right skewed.  This is a problem for linear regressions, since a big assumption of linear regressions is linearity.  This means that the relationships between the dependent and independent variable must be linear.  This shouldn't be too surprising given the name "linear regression," however it can easily be violated, and a right skewed distribution of the target variable does just that.  While this might seem like a huge problem, luckily nonlinear transformations are an easy fix to this problem. I used a log transformation on my data to fix this problem and, as you can see below, the dependent variable, price, is much more normally distributed which directly impacts the correlation between the independent variable 'sleeps.'
 
-![Price and log price](images/price vs log_price.png)
+![Price and log price](/images/price vs log_price.png)
 
 This emphasizes how important understanding your data is before jumping right into modeling.  However, I will jump into the model results now, as I'm sure that is more interesting. 
 
@@ -51,7 +51,7 @@ Since my main motivation for this project came from wanting to understand how an
 
 After solving these equations for N, the number of years, I could determine that N~4.5 years.  So now I know that after only a 4.5 years I will have earned enough in rental income to make up for the amount I went over budget while purchasing the property.  
 
-![Stone Harbor](images/stone_harbor_back.jpg)
+![Stone Harbor](/images/stone_harbor_back.jpg)
 
 ### Key Takeaways
 
