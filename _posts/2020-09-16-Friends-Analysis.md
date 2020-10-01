@@ -3,7 +3,7 @@ layout: post
 title: The One With the Data Science Analysis
 ---
 
-![](images/friends_fountain.jpg)
+![Friends](/images/friends_fountain.jpg)
 
 ### Introduction
 
@@ -17,7 +17,7 @@ When I was first told I had to use text data for a project I really started drea
 
 Okay, so now that you (hopefully) have a basic understanding of how text data can be turned into numbers, lets dive into our techniques to do so.  With this project I didn't have a specific problem that I was trying to solve or get an answer to, I really just wanted to see what I could learn from the transcripts.  When that is the case in data science we turn to unsupervised learning. The two unsupervised learning techniques are Dimensionality Reduction and Clustering.  I used both of these in this project, starting with Dimensionality Reduction.  When Dimensionality Reduction is applied on text data, the process is refered to as Topic Modeling.   The idea of Dimensionality Reduction is to take many columns and turn them into fewer columns.   This is called Topic Modeling for text data because the columns start as a bunch of words and turn into topics based on how the strongest words in the new column can be interpreted.  I used Non-Negative Matrix Factorization (NMF) in Sci-Kit Learn in python to complete the topic modeling, and the results can be seen below.
 
-![](images/friends_topics.png)
+![Topics](/images/friends_topics.png)
 
 As you can see there are 8 topics, each just containing ten words.  These are the ten strongest words in each topic, so now with these words we can give each topic an appropriate name to understand the documents based on the topics they most align with.  The table below shows my labeling of the topics.
 
@@ -38,7 +38,7 @@ Since each episode of *Friends* is a document in my project, we now have eight t
 
 After Topic Modeling, to get an even better understanding of the show I used KMeans Clustering to put each episode into a cluster or group based on the themes of the episode.   The clustering provided me with seven groups, each one related to a topic, with relationships and family combining for one cluster.  
 
-![](images/clusters_w_zero.png) ![](images/clusters_no_zero.png)
+![Clusters with zero](/images/clusters_w_zero.png) ![Clusters without zero](/images/clusters_no_zero.png)
 
 The two pictures above show how the episodes can be visualized in two dimensional space and how the different clusters interact.  The first plot shows all of the clusters present, and as you can see the relationships cluster is in the middle of everything with all of the other clusters branching off of it.  This really just emphasizes that *Friends* is a relationships based TV show first and foremost.  The second plot does not have the relationships cluster to show the remaining clusters a little more clearly.  
 
@@ -46,11 +46,11 @@ The two pictures above show how the episodes can be visualized in two dimensiona
 
 Now that the clusters have been created, I was interested to see how each season would get categorized.  This time I had each document consist of an entire season of episodes, so there were ten total documents to look at.  The results of the clusters by seaon can be seen below.
 
-![](images/friends_seasons.png) 
+![seasons](/images/friends_seasons.png) 
 
 The clusters represented by each season really show how the series grows throughout the seasons. The beginning seasons are light hearted and just about relationships, but as the characters grow older and start thinking about settling down, the seasons themes transition into work marriage and children.  Looking at each character individually by season, you can further see how the characters differ in themes and priorities.
 
-![](images/friends_characters.png)
+![characters](/images/friends_characters.png)
 
 Each character's individual theme for each season can be seen here.  As you can see, season ten has the most variety in themes, most likely representing the characters starting to go their own ways as the series comes to an end.  
 
